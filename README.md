@@ -40,3 +40,10 @@ You can then make queries using the `get` method, passing in the search term.
     u'ip_address': u'174.134.29.20'
 }
 ```
+
+
+## Changelog
+
+v0.1: 11-27-2012
+
+    - First release!
