@@ -16,7 +16,7 @@ ZIP = 'Z'
 
 
 class Data247(object):
-    """A data24-7 API wrapper."""
+    """A Data 24-7 API wrapper."""
     API_URI = 'https://api.data24-7.com/v/2.0?user=%s&pass=%s&api=%s&out=json&addfields=cost,billable&p1=%s'
     TIMEOUT = 3
 
