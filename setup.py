@@ -7,7 +7,7 @@ setup(
 
     # Basic package information:
     name = 'data247',
-    version = '0.1',
+    version = '0.2',
     py_modules = ('data247',),
 
     # Packaging options:
