@@ -44,6 +44,10 @@ You can then make queries using the `get` method, passing in the search term.
 
 ## Changelog
 
+v0.3: 12-14-2012
+
+    - Making `get` method return `{}` on error.
+
 v0.2: 12-14-2012
 
     - Adding support for extra data fields.

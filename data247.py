@@ -40,7 +40,7 @@ class Data247(object):
         :param float timeout: (optional) The amount of seconds to wait for a
             response before returning.
         :rtype: dict
-        :returns: The desired data as a JSON dict or None if there were errors.
+        :returns: The desired data as a JSON dict or {} if there were errors.
         """
         response = get(self.API_URI % (
             self.username,
@@ -55,3 +55,5 @@ class Data247(object):
             if results['status'] == 'OK':
                 del results['status']
                 return results
+
+        return {}
