@@ -7,7 +7,7 @@ setup(
 
     # Basic package information:
     name = 'data247',
-    version = '0.3',
+    version = '0.4',
     py_modules = ('data247',),
 
     # Packaging options:
@@ -15,7 +15,7 @@ setup(
     include_package_data = True,
 
     # Package dependencies:
-    install_requires = ['requests>=0.14.2'],
+    install_requires = ['requests>=1.0.2'],
 
     # Metadata for PyPI:
     author = 'Randall Degges',

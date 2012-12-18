@@ -44,6 +44,12 @@ You can then make queries using the `get` method, passing in the search term.
 
 ## Changelog
 
+v0.4: 12-17-2012
+
+    - Updating dependencies for python-requests.
+    - Updating codebase to make use of requests 1.0+ (this release introduced
+      backwards-incompatible changes).
+
 v0.3: 12-14-2012
 
     - Making `get` method return `{}` on error.

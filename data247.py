@@ -51,7 +51,7 @@ class Data247(object):
         ), timeout=timeout)
 
         if response.status_code == 200:
-            results = response.json['response']['results'][0]
+            results = response.json()['response']['results'][0]
             if results['status'] == 'OK':
                 del results['status']
                 return results
